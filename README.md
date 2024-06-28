@@ -70,4 +70,65 @@ T       F           T
 F       T           T
 F       F           F
 
+conditional Statement:-
+-To implement some condition in the code.
+-there are 3 types of conditional statement are there:-
+1.if condition:-
+    -if condition is true then the statement is true otherwise false.
+    -syntax-{
+        if(condition){
+            statement
+        }
+    }
+2.if-else condition:-
+    -if condition is true then if block will get execute otherwise its terminate to else condition.
+    syntax-
+        if(condition){
+            statement 
+        }
+        else{
+            statement
+        }
+3.else-if condition:-
+-its check the condition multiple times where the condition is true
+syntax{
+    if(condition){
+        statement
+    }
+    else if(condition){
+        statement
+    }
+    else if(condition){
+        statement
+    }
+    else{
+        statement
+    }
+}
+
+
+Loop:-
+
+-loops are used to execute a piece of code again and again
+-For Loop:-
+syntax:-
+for(initialization;condition;updation){
+    statement
+}
+-while loop:
+syntax:-
+while(condition){
+    statement
+    updation
+}
+
+-Do while
+syntax-
+do{
+    statement
+    updation
+}while(condition)
+
+4.for of loo:-it iterates on string & array.
+5.for-in loop:it iterates over objects(key=value) pair.
 
