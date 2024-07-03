@@ -132,3 +132,29 @@ do{
 4.for of loo:-it iterates on string & array.
 5.for-in loop:it iterates over objects(key=value) pair.
 
+
+Array is a collection of elements
+let info=[19,'delhi',90]
+-array[0],arr[1],arr[2]
+
+looping over an array:-
+-loop->iterable
+syntax:-
+for(let i=0;i<arr.length,i++){
+//statement
+}
+
+let heroes=['ironmen','hulk','thon','chotim']
+for (let i=0;i<heroes.length;i++){
+    console.log(heroes[i])
+}
+
+Array Method:-
+push->add an element to the end
+pop:-delete from end
+toString:-convert to array
+concat:-joins multiple arrays & return result.
+unshift:-delete from start 
+shift->return a piece of the array.
+slice:-return a piece of the array.
+splice:-change original array(add,remove,replace)
